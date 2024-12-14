@@ -15,6 +15,8 @@
 
 .flex-main-div{
     margin: 20px auto;
+    width: 400px;
+    border: 1px solid rgb(49, 49, 49);
 }
 
 span{
@@ -77,8 +79,71 @@ span{
     justify-content: flex-start;
 }
 
-
 #flex-container-row-justify-center{   
     flex-direction: row;    
     justify-content: center;
+}
+
+#flex-container-row-justify-around{
+    flex-direction: row;    
+    justify-content: space-around;    
+}
+
+#flex-container-row-justify-between{
+    flex-direction: row;    
+    justify-content: space-between;    
+}
+
+#flex-container-justify-evenly{
+    flex-direction: row;    
+    justify-content: space-evenly;
+}
+
+#flex-container-align-end{
+    flex-direction: row;    
+    align-items: flex-end;
+}
+
+#flex-container-align-start{
+    flex-direction: row;    
+    align-items: flex-start;
+}
+
+#flex-container-align-center{
+    flex-direction: row;    
+    align-items: center;
+}
+
+#flex-container-evenly-align-center{
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#flex-container-evenly-center-row-gap{    
+    row-gap: 30px;
+    flex-direction: row;    
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+#flex-container-evenly-center-col-gap{    
+    /* row-gap: 30px; */
+    column-gap: 30px;
+    flex-direction: row;    
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+
+#flex-container-evenly-center-gap{    
+    row-gap: 30px;
+    column-gap: 30px;
+    flex-direction: row;    
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
 }
